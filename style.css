@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.container .brief-details {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    overflow: auto;
+}
+
+.container .experience,
+.education {
+    width: 77vw;
+    height: auto;
+    float: right;
+    margin: 20px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .brief-details .profile .profile-name {
+    position: absolute;
+    top: 311px;
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+    background-color: lightgray;
+    width: 20vw;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.container .brief-details .profile .profile-name:hover.profile-name {
+    background-color: black;
+    color: white;
+}
+
+.container .brief-details .brief-info {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.container .brief-details .brief-info p {
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.container .brief-details .brief-info p i {
+    color: rgb(114, 0, 114);
+    padding-right: 15px;
+    font-size: 2rem;
+}
+
+.container .brief-details hr {
+    width: 80%;
+    margin-inline: auto;
+    border-color: lightgray;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.spcl-hr {
+    margin-bottom: 9vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .brief-details .skills,
+.container .brief-details .languages {
+    width: 20vw;
+    margin: 10px auto 20px auto;
+}
+
+.container .brief-details .skills p,
+.container .brief-details .languages p {
+    margin: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container .brief-details .skills p i,
+.container .brief-details .languages p i {
+    font-size: 2rem;
+    color: rgb(114, 0, 114);
+    margin: auto 10px auto 15px;
+}
+
+.container .brief-details .skills .skills-info,
+.container .brief-details .languages .lang-known {
+    margin: 12px 40px;
+}
+
+.container .brief-details .skills .skills-info .html .name,
+.container .brief-details .skills .skills-info .java .name,
+.container .brief-details .skills .skills-info .Net .name,
+.container .brief-details .languages .lang-known .english .name,
+.container .brief-details .languages .lang-known .urdu .name,
+.container .brief-details .languages .lang-known .telugu .name,
+.container .brief-details .languages .lang-known .hindi .name {
+    font-size: 1.5rem;
+    color: rgb(57, 56, 56);
+    margin: 5px auto;
+}
+
+.container .brief-details .skills .skills-info .html .value,
+.container .brief-details .skills .skills-info .java .value,
+.container .brief-details .skills .skills-info .Net .value,
+.container .brief-details .languages .lang-known .english .value,
+.container .brief-details .languages .lang-known .urdu .value,
+.container .brief-details .languages .lang-known .telugu .value,
+.container .brief-details .languages .lang-known .hindi .value {
+    background-color: rgb(207, 206, 206);
+    border-radius: 10px;
+    width: 90%;
+    margin-inline: auto;
+}
+
+.container .brief-details .skills .skills-info .html .value p,
+.container .brief-details .skills .skills-info .java .value p,
+.container .brief-details .skills .skills-info .Net .value p {
+    font-size: 1.2rem;
+    background-color: rgb(114, 0, 114);
+    width: 90%;
+    margin: 0;
+    padding: 2.5px 10px;
+    text-align: right;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.container .brief-details .languages .lang-known .english .value p,
+.container .brief-details .languages .lang-known .urdu .value p,
+.container .brief-details .languages .lang-known .telugu .value p,
+.container .brief-details .languages .lang-known .hindi .value p {
+    font-size: 1.2rem;
+    background-color: rgb(114, 0, 114);
+    margin: 0;
+    padding: 2.5px 10px;
+    text-align: right;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    height: 18px;
+}
+
+.container .brief-details .skills .skills-info .java .value p {
+    width: 70%;
+}
+
+.container .brief-details .skills .skills-info .Net .value p {
+    width: 50%;
+}
+
+.container .brief-details .languages .lang-known .english .value p,
+.container .brief-details .languages .lang-known .hindi .value p {
+    width: 90%;
+}
+
+.container .brief-details .languages .lang-known .urdu .value p,
+.container .brief-details .languages .lang-known .telugu .value p {
+    width: 95%;
+}
+
+.experience .icon,
+i,
+.education .icon,
+i {
+    font-size: 4rem;
+}
+
+.experience .icon i,
+.education .icon i {
+    color: rgb(114, 0, 114);
+}
+
+.experience .icon,
+.education .icon {
+    font-weight: 600;
+    margin: 10px 30px 40px 30px;
+}
+
+.experience .diff-experience .full-stack-dev,
+.experience .diff-experience .programmer,
+.experience .diff-experience .net-dev,
+.education .diff-edu .codding,
+.education .diff-edu .masters,
+.education .diff-edu .bachelors {
+    margin: 20px auto 20px 60px;
+}
+
+.experience .diff-experience .full-stack-dev .name,
+.experience .diff-experience .programmer .name,
+.experience .diff-experience .net-dev .name,
+.education .diff-edu .codding .name,
+.education .diff-edu .masters .name,
+.education .diff-edu .bachelors .name {
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.experience .diff-experience .full-stack-dev .date i,
+.experience .diff-experience .programmer .date i,
+.experience .diff-experience .net-dev .date i,
+.education .diff-edu .codding .date i,
+.education .diff-edu .masters .date i,
+.education .diff-edu .bachelors .date i {
+    color: rgb(114, 0, 114);
+    font-size: 2rem;
+}
+
+.experience .diff-experience .full-stack-dev .date,
+.experience .diff-experience .programmer .date,
+.experience .diff-experience .net-dev .date,
+.education .diff-edu .codding .date,
+.education .diff-edu .masters .date,
+.education .diff-edu .bachelors .date {
+    color: rgb(114, 0, 114);
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.experience .diff-experience .full-stack-dev .date em,
+.education .diff-edu .codding .date em,
+.education .diff-edu .masters .date em {
+    font-size: 2rem;
+    font-style: normal;
+    background-color: rgb(114, 0, 114);
+    color: white;
+    padding: 0px 5px 2px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.experience .diff-experience .full-stack-dev .para,
+.experience .diff-experience .programmer .para,
+.experience .diff-experience .net-dev .para,
+.education .diff-edu .codding .para,
+.education .diff-edu .masters .para,
+.education .diff-edu .bachelors .para {
+    font-size: 1.8rem;
+    margin: 5px;
+}
+
+.experience .diff-experience hr,
+.education .diff-edu hr {
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
